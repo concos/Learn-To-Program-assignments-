@@ -1,0 +1,7 @@
+number = 99
+while number != 0
+  puts number.to_s + ' bottles of beer on the wall'
+	puts number.to_s + ' bottles of beer'
+	puts 'If one of those bottles should fall'
+	number = number - 1
+end 
